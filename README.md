@@ -1,5 +1,6 @@
 Looking Glass:T81 - Technical Roadmap
 
+
 🧱 Phase 1: Foundation & Fork
 
 Goals:
@@ -22,6 +23,8 @@ Port rendering logic and create test scenes
 
 Implement basic 3D window rendering, movement, and interaction
 
+
+
 🧠 Phase 2: Axion AI Integration
 
 Goals:
@@ -42,6 +45,8 @@ Allow Axion to monitor and suggest workspace changes
 
 Build searchable, structured log format (T81 JSON)
 
+
+
 🧮 Phase 3: Ternary State System
 
 Goals:
@@ -59,6 +64,8 @@ Add rotateLeft, rotateCenter, rotateRight interactions
 Build 3D ternary register viewer
 
 Enable auto-grouping by ternary logic state
+
+
 
 📊 Phase 4: T81Lang Dev Tools
 
@@ -78,6 +85,8 @@ Design memory explorer for ternary memory inspection
 
 Support .cweb and .t81 plugins for compiler integration
 
+
+
 📦 Phase 5: Packaging & Deployment
 
 Goals:
@@ -96,6 +105,8 @@ Theme and skin system (ternary-based coloring)
 
 Auto-detect and hook into T81OS + Axion learning mode
 
+
+
 🔮 Phase 6: Showcase & Demos
 
 Goals:
@@ -103,6 +114,8 @@ Goals:
 Demonstrate core functionality to users and devs
 
 Visualize ternary logic, Axion, and runtime interaction
+
+
 
 Tasks:
 
@@ -113,6 +126,8 @@ Ternary registers and memory viewer
 Axion workspace reorganization demo
 
 Custom themes: LCARS, retrofuturist, sci-fi transitions
+
+
 
 ✨ Stretch Goals
 
