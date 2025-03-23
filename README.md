@@ -1,40 +1,123 @@
-🔧 Core Components
-1. Window Manager Layer (T81WM)
+Looking Glass:T81 - Technical Roadmap
 
-Built on a modernized fork of Project Looking Glass
-Rendered using LWJGL or jMonkeyEngine to replace outdated Java3D
-Every window is a 3D object with Axion metadata overlays (AI context, logs, T81 state)
-Supports ternary-focused navigation: tilt/rotate to represent state (-1, 0, 1)
+🧱 Phase 1: Foundation & Fork
 
+Goals:
 
-2. Axion AI Integration
+Fork and modernize Project Looking Glass
 
-Contextual AI assistant docked as a rotating globe or virtual agent in 3D space
-Learns window behavior, predicts task flows, reorders workspace dynamically
-Backs of windows display AI notes, diffs, or logs (with transparency sliders)
+Replace outdated Java3D with modern engine
 
+Establish window rendering in 3D space
 
-3. Ternary System Visualizations
+Tasks:
 
-Live ternary register view: colored vertical towers representing -1/0/1 values
-T81VM debugger: float above the desktop, breakpoints visualized as ripples
-Ternary memory explorer: browse heap/stack in 3D space
+Fork Project Looking Glass GitHub repo
 
+Replace Java3D with jMonkeyEngine or LWJGL
 
-4. T81Lang Dev Suite Integration
+Set up build environment: Java 17+, Gradle, IntelliJ
 
-Open source .t81 or .cweb files as living windows: AI suggests edits visually
-Errors shown as red glows; optimizations as green pulses
-Compile results rendered as beams connecting modules (think Star Trek LCARS + Matrix)
+Port rendering logic and create test scenes
 
+Implement basic 3D window rendering, movement, and interaction
 
-💡 User Interactions
+🧠 Phase 2: Axion AI Integration
 
-Action	Result
+Goals:
 
-Rotate window left	Shift to state -1 (e.g., paused, hidden, backgrounded)
-Center a window	State 0 (neutral, idle, queued)
-Rotate right	State 1 (active, focused, live)
-Flip window back	Show AI-generated summary, logs, or "thoughts"
-Zoom out	See full ternary system map or program state in top-down cube layout
-Pinch to collapse	Merge windows into a stack/module group
+Integrate Axion AI into the WM
+
+Enable contextual behavior and runtime window intelligence
+
+Tasks:
+
+Create Axion IPC or plugin interface
+
+Annotate windows with process/task metadata
+
+Embed 3D AI agent (avatar, orb, symbol)
+
+Allow Axion to monitor and suggest workspace changes
+
+Build searchable, structured log format (T81 JSON)
+
+🧮 Phase 3: Ternary State System
+
+Goals:
+
+Support ternary logic throughout UI (-1, 0, 1)
+
+Visual metaphors for ternary window state
+
+Tasks:
+
+Create ternary state engine for windows
+
+Add rotateLeft, rotateCenter, rotateRight interactions
+
+Build 3D ternary register viewer
+
+Enable auto-grouping by ternary logic state
+
+📊 Phase 4: T81Lang Dev Tools
+
+Goals:
+
+Provide IDE features for .t81 and .cweb files
+
+Enable live runtime and ternary state visualization
+
+Tasks:
+
+Implement T81Lang-aware code editor window
+
+Build real-time debugger with call stacks and register view
+
+Design memory explorer for ternary memory inspection
+
+Support .cweb and .t81 plugins for compiler integration
+
+📦 Phase 5: Packaging & Deployment
+
+Goals:
+
+Build cross-platform launcher and modular build
+
+Integrate fully with T81OS and Axion runtime
+
+Tasks:
+
+Modular Gradle build with core, ai, vm, ui modules
+
+Standalone launcher with DE/VM mode selector
+
+Theme and skin system (ternary-based coloring)
+
+Auto-detect and hook into T81OS + Axion learning mode
+
+🔮 Phase 6: Showcase & Demos
+
+Goals:
+
+Demonstrate core functionality to users and devs
+
+Visualize ternary logic, Axion, and runtime interaction
+
+Tasks:
+
+Live T81Lang compile/run demo in 3D
+
+Ternary registers and memory viewer
+
+Axion workspace reorganization demo
+
+Custom themes: LCARS, retrofuturist, sci-fi transitions
+
+✨ Stretch Goals
+
+VR/AR support via OpenXR
+
+Multi-monitor 3D workspace with seamless transitions
+
+TNN (Ternary Neural Network) visualization + debugging
